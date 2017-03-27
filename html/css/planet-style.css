@@ -1,0 +1,114 @@
+
+/*//////////////////////////////////////////*/
+/*///////////  universal  //////////*/
+/*//////////////////////////////////////////*/
+
+* {
+  background: black;
+
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+/*//////////////////////////////////////////*/
+/*///////////   div containing planet div //////////*/
+/*//////////////////////////////////////////*/
+
+
+.planet-section {
+  /*border: 5px solid pink;*/
+  color: white;
+
+}
+
+/*//////////////////////////////////////////*/
+/*///////////   planet image selector   //////////*/
+/*//////////////////////////////////////////*/
+
+
+.planet-section img{
+  height: 100px;
+  border-radius: 20%;
+}
+
+/*//////////////////////////////////////////*/
+/*///////////   popup baloon element   //////////*/
+/*//////////////////////////////////////////*/
+
+.popupText {
+  background: white;
+  color: black;
+  border-radius: 20%;
+  padding: 5px;
+  position: absolute;
+}
+
+/*//////////////////////////////////////////*/
+/*///////////    planet divs  //////////*/
+/*//////////////////////////////////////////*/
+
+
+#planet-div-1 {
+  /*border: 5px solid orange;*/
+  margin-left: 90%;
+}
+
+
+#planet-div-2 {
+  /*border: 5px solid red;*/
+  margin-left: 80%;
+}
+
+#planet-div-3 {
+  /*border: 5px solid orange;*/
+  margin-left: 70%;
+}
+
+#planet-div-4 {
+  /*border: 5px solid red;*/
+  margin-left: 60%;
+}
+
+#planet-div-5 {
+  /*border: 5px solid orange;*/
+  margin-left: 50%;
+}
+
+#planet-div-6 {
+  /*border: 5px solid red;*/
+  margin-left: 40%;
+}
+
+
+#planet-div-7 {
+  /*border: 5px solid orange;*/
+  margin-left: 30%;
+}
+
+#planet-div-8 {
+  /*border: 5px solid red;*/
+  margin-left: 15%;
+}
+
+#planet-div-9 {
+  /*border: 5px solid orange;*/
+  margin-left: 5%;
+}
+
+.planet-image {
+  border-radius: 90%;
+}
+
+/*//////////////////////////////////////////*/
+/*///////////     hover elements  //////////*/
+/*//////////////////////////////////////////*/
+
+.planet-image:hover {
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+  transition: all 0.75s ease;
+}

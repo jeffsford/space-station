@@ -2,6 +2,7 @@
 
 // Script to modify text pop-up balloons
 
+<<<<<<< HEAD
 ////////////////////////////////////////////////////////////////
 ////////////////
 //////////////// Need to refactor the code below!!!
@@ -24,6 +25,10 @@
 ////////////////
 ////////////////////////////////////////////////////////////////
 
+=======
+
+//popup text for Neptune, not sure if keeping or not, looking for text balloons
+>>>>>>> a2c8119fcdf0708e0897927ea8502fcb9eb85358
 var popup1 = document.getElementById('planet-div-1');
 popup1.onmouseover = function(){
   document.getElementById('popupText1').style.display = 'block';
@@ -32,6 +37,12 @@ popup1.onmouseout = function() {
   document.getElementById('popupText1').style.display = 'none';
 };
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> a2c8119fcdf0708e0897927ea8502fcb9eb85358
 //end of popup script
 var popup2 = document.getElementById('planet-div-2');
 popup2.onmouseover = function(){
