@@ -13,6 +13,11 @@ header {
   text-align: center;
 }
 
+.planet-image {
+  border-radius: 90%;
+    height: 100px;
+}
+
 /*//////////////////////////////////////////*/
 /*///////////   div containing planet div //////////*/
 /*//////////////////////////////////////////*/
@@ -29,10 +34,7 @@ header {
 /*//////////////////////////////////////////*/
 
 
-.planet-section img{
-  height: 100px;
-  border-radius: 20%;
-}
+
 
 /*//////////////////////////////////////////*/
 /*///////////   popup baloon element   //////////*/
@@ -42,7 +44,7 @@ header {
   background: white;
   color: black;
   border-radius: 20%;
-  padding: 5px;
+  padding: 2%;
   position: absolute;
 }
 
@@ -53,33 +55,33 @@ header {
 
 #planet-div-1 {
   /*border: 5px solid orange;*/
-  margin-left: 90%;
+  margin-left: 83%;
 }
 
 
 #planet-div-2 {
   /*border: 5px solid red;*/
-  margin-left: 80%;
+  margin-left: 75%;
 }
 
 #planet-div-3 {
   /*border: 5px solid orange;*/
-  margin-left: 70%;
+  margin-left: 69%;
 }
 
 #planet-div-4 {
   /*border: 5px solid red;*/
-  margin-left: 60%;
+  margin-left: 62%;
 }
 
 #planet-div-5 {
   /*border: 5px solid orange;*/
-  margin-left: 50%;
+  margin-left: 51%;
 }
 
 #planet-div-6 {
   /*border: 5px solid red;*/
-  margin-left: 40%;
+  margin-left: 42%;
 }
 
 
@@ -90,7 +92,7 @@ header {
 
 #planet-div-8 {
   /*border: 5px solid red;*/
-  margin-left: 15%;
+  margin-left: 17%;
 }
 
 #planet-div-9 {
@@ -98,9 +100,7 @@ header {
   margin-left: 5%;
 }
 
-.planet-image {
-  border-radius: 90%;
-}
+
 
 /*//////////////////////////////////////////*/
 /*///////////     hover elements  //////////*/
