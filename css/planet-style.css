@@ -13,10 +13,7 @@
   color: white;
 }
 
-
-
 header {
-
   text-align: center;
 }
 
@@ -26,12 +23,12 @@ header {
   background: #999;
   border-radius: 10%;
   color: black;
+  text-align: center;
 }
 
 .random-stuff img {
   float: left;
 }
-
 
 /*//////////////////////////////////////////*/
 /*///////////   div containing planet div //////////*/
