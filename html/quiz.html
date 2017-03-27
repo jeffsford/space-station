@@ -10,6 +10,7 @@
       <h1>Quiz</h1>
     </section> <!--closes header section-->
     <section id="quiz">
+      <div id="results"></div>
       <form id="quizForm" method="post">
           <p class="question">1. What is the closest planet to the Sun?</p>
 
@@ -58,43 +59,15 @@
         </form>
     </section> <!--closes quiz section-->
 <br/>
-      <div id="results">
-      Show me the answers!
-      </div>
-
-      <div>
-      <p>
-      <strong>Question 1:</strong> The correct answer is the <strong>Mercury</strong>.</p>
-      </div>
-
-      <div>
-      <p>
-      <strong>Question 2:</strong> The correct answer is <strong>Venus</strong>.</p>
-      </div>
-
-      <div>
-      <p>
-      <strong>Question 3:</strong> The correct answer is <strong>Venus</strong>.</p>
-      </div>
-
-      <div>
-      <p>
-      <strong>Question 4:</strong> The correct answer is <strong>Eight</strong>.</p>
-      </div>
-
-      <div>
-      <p>
-      <strong>Question 5:</strong> The correct answer is <strong>Mercury</strong>.</p>
-      </div>
-
-      <div>
-      <p>You answered them all right!</p>
+  
+      <div id="qForm">
+        <input type="submit" name="Submit" value="Click Here for Results">
       </div>
     </section> <!--closes quiz section-->
     <section id="comments">
       <p>Please type your classrooom comments here.</p>
       <textarea name="name" rows="8" cols="80"></textarea>
     </section> <!--closes comments section-->
-    <script type="text/javascript" src=../js/app.js></script>
+    <script type="text/javascript" src=../js/quiz.js></script>
   </body>
 </html>

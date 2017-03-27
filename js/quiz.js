@@ -1,6 +1,9 @@
 'use strict';
 
-function submitAnswers() {
+function submitAnswers(e) {
+
+  e.preventDefault();
+
   var total = 5;
   var score = 0;
 
@@ -22,7 +25,7 @@ function submitAnswers() {
   }
 
     //set correct answers
-  var answers = ['b', 'a', 'd', 'b', 'd'];
+  var answers = ['a', 'b', 'b', 'c', 'a'];
 
     //check answers
   for (var i = 0; i < qArray.length; i++) {
@@ -32,7 +35,7 @@ function submitAnswers() {
   }
     //display results
   var results = document.getElementById('results');
-  results.innerHTML = '<h3>You scored <span>' + score + '</span> out of <span>' + total + '</span></h3>';
+  results.innerHTML = 'You scored ' + score + ' out of ' + total;
   return false;
 
 };
