@@ -5,7 +5,16 @@
 
 * {
   background: black;
+  background-image: url("../assets/planet-wallpaper.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.page-title {
+  width: 550px;
+  position: absolute;
 }
 
 header {
@@ -69,6 +78,7 @@ header {
   position: absolute;
   /*width: 300px;*/
   margin: auto;
+  border: 3px solid gray;
 }
 
 /*//////////////////////////////////////////*/
@@ -130,8 +140,8 @@ header {
 /*//////////////////////////////////////////*/
 
 .planet-image:hover {
-  -webkit-transform: scale(2);
-  -ms-transform: scale(2);
-  transform: scale(2);
+  -webkit-transform: scale(2.5);
+  -ms-transform: scale(2.5);
+  transform: scale(2.5);
   transition: all 0.75s ease;
 }
