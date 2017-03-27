@@ -1,8 +1,9 @@
+
 .answers li {
 list-style: upper-alpha;
 }
 
-label { 
+label {
 margin-left: 0.5em;
 cursor: pointer;
 }
