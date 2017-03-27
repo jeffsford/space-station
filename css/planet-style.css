@@ -1,50 +1,56 @@
 .planet-section {
-  border: 5px solid pink;
+  /*border: 5px solid pink;*/
+  background: black;
+  color: white;
 
 }
 
-.planet-image-1 {
-  border: 5px solid orange;
+.planet-section img{
+  height: 100px;
+}
+
+.planet-div-1 {
+  /*border: 5px solid orange;*/
   margin-left: 1000px;
 }
 
-.planet-image-2 {
-  border: 5px solid red;
+.planet-div-2 {
+  /*border: 5px solid red;*/
   margin-left: 900px;
 }
 
-.planet-image-3 {
-  border: 5px solid orange;
+.planet-div-3 {
+  /*border: 5px solid orange;*/
   margin-left: 800px;
 }
 
-.planet-image-4 {
-  border: 5px solid red;
+.planet-div-4 {
+  /*border: 5px solid red;*/
   margin-left: 700px;
 }
 
-.planet-image-5 {
-  border: 5px solid orange;
+.planet-div-5 {
+  /*border: 5px solid orange;*/
   margin-left: 600px;
 }
 
-.planet-image-6 {
-  border: 5px solid red;
+.planet-div-6 {
+  /*border: 5px solid red;*/
   margin-left: 500px;
 }
 
 
-.planet-image-7 {
-  border: 5px solid orange;
+.planet-div-7 {
+  /*border: 5px solid orange;*/
   margin-left: 400px;
 }
 
-.planet-image-8 {
-  border: 5px solid red;
+.planet-div-8 {
+  /*border: 5px solid red;*/
   margin-left: 200px;
 }
 
-.planet-image-9 {
-  border: 5px solid orange;
+.planet-div-9 {
+  /*border: 5px solid orange;*/
   margin-left: 10px;
 }
