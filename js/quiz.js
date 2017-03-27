@@ -8,12 +8,11 @@ function submitAnswers(e) {
   var score = 0;
 
     //get user input
-  var q1 = document.forms['quizForm']['q1'].value;
-  var q2 = document.forms['quizForm']['q2'].value;
-  var q3 = document.forms['quizForm']['q3'].value;
-  var q4 = document.forms['quizForm']['q4'].value;
-  var q5 = document.forms['quizForm']['q5'].value;
-
+  var q1 = document.forms['qForm']['q1'].value;
+  var q2 = document.forms['qForm']['q2'].value;
+  var q3 = document.forms['qForm']['q3'].value;
+  var q4 = document.forms['qForm']['q4'].value;
+  var q5 = document.forms['qForm']['q5'].value;
   var qArray = [q1, q2, q3, q4, q5];
 
     //reminds user to select each button if left unselected
