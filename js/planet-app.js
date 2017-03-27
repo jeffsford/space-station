@@ -2,8 +2,28 @@
 
 // Script to modify text pop-up balloons
 
+////////////////////////////////////////////////////////////////
+////////////////
+//////////////// Need to refactor the code below!!!
+////////////////
+////////////////////////////////////////////////////////////////
 
-//popup text for Neptune, not sure if keeping or not, looking for text balloons
+// for(var i = 0; i < 10; i++){
+//   var popup[i] = document.getElementById('planet-div-[i]');
+//   popup[i].onmouseover = function(){
+//     document.getElementById('popupText[i]').style.display = 'block';
+//   };
+//   popup[i].onmouseout = function() {
+//     document.getElementById('popupText[i]').style.display = 'none';
+//   };
+// }
+
+////////////////////////////////////////////////////////////////
+////////////////
+//////////////// Need to refactor the code above!!!
+////////////////
+////////////////////////////////////////////////////////////////
+
 var popup1 = document.getElementById('planet-div-1');
 popup1.onmouseover = function(){
   document.getElementById('popupText1').style.display = 'block';
@@ -11,9 +31,6 @@ popup1.onmouseover = function(){
 popup1.onmouseout = function() {
   document.getElementById('popupText1').style.display = 'none';
 };
-
-
-
 
 //end of popup script
 var popup2 = document.getElementById('planet-div-2');
