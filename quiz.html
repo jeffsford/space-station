@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Space Quiz</title>
-    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="../css/quiz.css">
   </head>
   <body>
     <section id= "header">
@@ -63,23 +63,10 @@
       <br>
       <div id="results"></div>
     </section> <!--closes quiz section-->
-    <section>
-      <form id="comments-section" action="quiz.html">
-        <p>We value your feedback.  Please enter any comments or suggestions below.</p>
-        <label for="name">Name:</label>
-        <input type="text" name="name"/> <br/>
-        <label for="textfield">Comment:</label> <br/>
-        <textarea name="textfield" rows="4" cols="20"></textarea>
-        <input type="submit" name="submit-comment" value="Post Comment"/>
-        </form>
-    </section>
-      <section id="messageboard">
-        <article id="commentarticle">
-          <h4 id="username"></h4>
-            <p id="usercomment"></p>
-        </article>
-      </section> <!--closes comments section-->
-    <script type="text/javascript" src="js/quiz.js"></script>
-    <script type="text/javascript" src="js/comments.js"></script>
+    <section id="comments">
+      <p>Please type your classrooom comments here.</p>
+      <textarea name="name" rows="8" cols="80"></textarea>
+    </section> <!--closes comments section-->
+    <script type="text/javascript" src=../js/quiz.js></script>
   </body>
 </html>
