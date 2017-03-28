@@ -17,10 +17,11 @@ header {
   text-align: center;
 }
 
+
+
 .random-stuff > p {
   margin: auto;
   padding: 5%;
-  background: #999;
   border-radius: 10%;
   color: black;
   text-align: center;
