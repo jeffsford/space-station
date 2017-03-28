@@ -140,8 +140,8 @@ header {
 /*//////////////////////////////////////////*/
 
 .planet-image:hover {
-  -webkit-transform: scale(2.5);
-  -ms-transform: scale(2.5);
-  transform: scale(2.5);
+  -webkit-transform: scale(3.5);
+  -ms-transform: scale(3.5);
+  transform: scale(3.5);
   transition: all 0.75s ease;
 }
