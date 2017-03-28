@@ -1,8 +1,25 @@
 body{
-  background-color: green;
+  background-color: gray;
+  background-image: url('../assets/space-background.jpg');
+  color: white;
+}
+#mainImg{
+  width: 700px;
+  height: 400px;
+  display: inline-block;
+  margin: 50px 20px
+}
+#subscribe{
+  float: right;
+  margin-right: 20px;
 
 }
-footer{
-  width: 400px;
-  height: 200px;
+.edu{
+  float: left;
+  margin: 15px;
+  border: white solid 5px;
+}
+#image-section{
+  width: auto;
+  height: auto;
 }
