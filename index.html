@@ -7,22 +7,26 @@
   </head>
   <body>
     <header>
+      <div id="nav-wrapper">
+      <div id="header">
       <ul id="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="planets.html">Solar System</a></li>
-        <li><a href="quiz.html">Quiz</a></li>
+        <li class="nav-li"><a href="index.html" class="nav-links">Home</a></li>
+        <li class="nav-li"><a href="planets.html" class="nav-links">Solar System</a></li>
+        <li class="nav-li"><a href="quiz.html" class="nav-links">Quiz</a></li>
       </ul>
     </header>
     <section id='mainImg'>
       <div id="day-pic">
-        <img src="http://placehold.it/700x400"/>
+        <img id='day-pic'src="assets/Orion.jpg" width="700px" height="400px"/>
+        <h2><span>Picture of the day: Orion Nebula</span></h2>
       </div>
+      <p id='dayPicInfo'><strong>The Orion Nebula is also known as M42. If you look at the night sky at the constellation of Orion and locate the middle “star” in the “sword” of Orion then you’ve found this nebula!</strong></p>
     </section>
       <section id="subscribe">
       <form>
         <fieldset>
           <legend>Subscribe Here</legend>
-          <p>Sign up to<br/> receive fun<br/> space facts!</p>
+          <p>Sign up to receive fun space facts!</p>
           <label>Enter e-mail here:<br/>
           <input type="email" name="email"/><br/>
           <input type="submit" value="Sumbit"/>
