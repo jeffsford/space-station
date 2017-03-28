@@ -72,9 +72,10 @@ header {
   border-radius: 20%!important;
 }
 
-#astronaut {
-  z-index: 0;
-
+#astronaut:hover {
+  cursor: default;
+  transform: rotate(720deg);
+  transition: all 2s ease-in-out 0s;
 }
 
 .page-title {
