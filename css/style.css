@@ -2,16 +2,21 @@ body{
   background-color: gray;
   background-image: url('../assets/space-background.jpg');
   color: white;
+  border: 5px solid white;
 }
 #mainImg{
   width: 700px;
   height: 400px;
   display: inline-block;
   margin: 50px 20px
+  border: 5px solid white;
+
 }
 #subscribe{
   float: right;
   margin-right: 20px;
+  border: 5px solid white;
+
 
 }
 .edu{
@@ -21,6 +26,8 @@ body{
 #image-section{
   width: auto;
   height: auto;
+  border: 5px solid white;
+
 }
 #nav-wrapper {
   height: 61px;
@@ -29,6 +36,8 @@ body{
   margin-top: -16px;
   margin-left: -8px;
   border-bottom-right-radius: 25px;
+  border: 5px solid orange;
+
 }
 
 #header {
@@ -39,6 +48,8 @@ body{
   margin-top: -16px;
   margin-left: -8px;
   border-bottom-right-radius: 25px;
+  border: 5px solid pink;
+
 }
 
 #navbar {
@@ -47,21 +58,29 @@ body{
   list-style-type: none;
   padding-top: 15px;
   margin-left: 25px;
+  border: 5px solid red;
+
 }
 .nav-li {
   display: inline;
   padding-right: 80px;
   font-size: 18px;
   font-weight: bold;
+  border: 5px solid white;
+
 }
 
 .nav-links {
   text-decoration: none;
   color: inherit;
+  border: 5px solid white;
+
 }
 .day-pic {
    position: relative;
    width: 100%;
+   border: 5px solid white;
+
 }
 
 h2 {
@@ -69,6 +88,8 @@ h2 {
    top: 100px;
    left: 36px;
    width: 100%;
+   border: 5px solid white;
+
 }
 h2 span  {
    color: white;
@@ -77,13 +98,19 @@ h2 span  {
    background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.7);
    padding: 10px;
+   border: 5px solid green;
+
 }
 h2 span.spacer {
    padding:0 5px;
+   border: 5px solid purple; 
+
 }
 img {
-  border-radius: 10px;
-  border: 7px solid #672065;
+  /*border-radius: 10px;*/
+  border: 7px solid #672065
+
+;
 }
 #dayPicInfo {
   margin: auto;
@@ -93,4 +120,6 @@ img {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
   padding: 10px;
+  border: 5px solid pink;
+
 }
