@@ -3,25 +3,28 @@ body{
   background-image: url('../assets/space-background.jpg');
   color: white;
 }
-#mainImg{
-  width: 700px;
-  height: 400px;
-  display: inline-block;
-  margin: 50px 20px
-}
-#subscribe{
-  float: right;
-  margin-right: 20px;
-
-}
 .edu{
   float: left;
   margin: 15px
 }
-#image-section{
-  width: auto;
-  height: auto;
+#day-pic {
+  /*overflow: visible;*/
+  position: relative;
+  width: 700PX;
+  float: left;
 }
+
+#subscribe{
+  overflow: hidden;
+  float: left;
+  margin: 20px;
+}
+/*/////////////////   TITLE        /////////////////*/
+h1{
+  text-align: center;
+}
+
+/*NAVBAR ELEMENTS*/
 #nav-wrapper {
   height: 61px;
   width: 505px;
@@ -59,28 +62,24 @@ body{
   text-decoration: none;
   color: inherit;
 }
-.day-pic {
-   position: relative;
-   width: 100%;
-}
 
-h2 {
-   position: absolute;
-   top: 100px;
-   left: 36px;
-   width: 100%;
-}
-h2 span  {
+
+/*/////////////////    BIG IMAGE        /////////////////*/
+
+
+span  {
    color: white;
    font: bold 24px/45px Helvetica, Sans-Serif;
    letter-spacing: -1px;
    background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.7);
    padding: 10px;
+   position: absolute;
+   top: 8px;
+   left: 8px;
+   width: 50%%;
 }
-h2 span.spacer {
-   padding:0 5px;
-}
+
 img {
   border-radius: 10px;
   border: 7px solid #672065;
@@ -93,4 +92,18 @@ img {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
   padding: 10px;
+}
+#imageLink{
+  margin-right: 5px;
+}
+ .edu :hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+#main{
+  float: inherit;
+  width: 1000px;
+  margin: 0 auto 0 auto;
+  position: relative;
 }
