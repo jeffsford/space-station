@@ -58,6 +58,7 @@ body{
 .nav-links {
   text-decoration: none;
   color: inherit;
+  font-family: 'Handlee', cursive;
 }
 .day-pic {
    position: relative;
