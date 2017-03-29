@@ -73,7 +73,7 @@ font-size: 22px;
 
 .nav-li {
   display: inline;
-  padding-right: 80px;
+  padding-right: 70px;
   font-size: 18px;
   font-weight: bold;
 }
@@ -81,4 +81,5 @@ font-size: 22px;
 .nav-links {
   text-decoration: none;
   color: inherit;
+  font-family: 'Handlee', cursive;
 }

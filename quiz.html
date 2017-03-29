@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Space Quiz</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="../css/quiz.css">
+=======
+    <link rel="stylesheet" href="css/quiz.css">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+>>>>>>> 9b8a7fcf48ce87a9d2eac973216c24beae7d6deb
   </head>
   <body>
     <section id= "header">
@@ -57,12 +63,15 @@
             </ul>
       <div >
         <input type="submit" name="Submit" value="Click Here for Results">
+        <button type="reset">Try Again!</button>
+        <!-- <input type="button" onclick="clearTheQuizGuesses()" value="Click Here to Try Again"> -->
       </div>
       </form>
       </section>
       <br>
       <div id="results"></div>
     </section> <!--closes quiz section-->
+<<<<<<< HEAD
     <section id="comments">
       <form id="comments-section" action="quiz.html">
         <p>We value your feedback.  Please enter any comments or suggestions below.</p>
@@ -75,5 +84,23 @@
       <p id="comments-p"></p>
     </section> <!--closes comments section-->
     <script type="text/javascript" src=../js/quiz.js></script>
+=======
+    <section>
+      <form>
+        <p>We value your feedback.  Please enter any comments or suggestions below.</p>
+        <label for="name">Name:</label>
+        <input type="text" name="namefield"/> <br/>
+        <label for="textfield">Comment:</label> <br/>
+        <textarea name="textfield" rows="4" cols="20"></textarea>
+        <input type="submit" id="submitbutton" name="submit-comment" value="Post Comment"/>
+        </form>
+    </section>
+      <section id="messageboard">
+          <h4 id="username"></h4>
+            <p id="usercomment"></p>
+      </section> <!--closes comments section-->
+
+    <script type="text/javascript" src="js/quiz.js"></script>
+>>>>>>> 9b8a7fcf48ce87a9d2eac973216c24beae7d6deb
   </body>
 </html>
