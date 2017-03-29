@@ -66,8 +66,6 @@ a {
 .nav-li {
   display: inline;
   padding-right: 80px;
-  /*font-size: 18px;
-  font-weight: bold;*/
   font-size: 9px;
   font-weight: bold;
 }
@@ -75,7 +73,6 @@ a {
 .nav-links {
   text-decoration: none;
   color: inherit;
-  /*font-family: 'Handlee', cursive;*/
   font-family: 'Press Start 2P', cursive;
   font-size: 8px!important;
 
@@ -97,9 +94,7 @@ h1 {
   width: 600px;
   position: absolute;
   text-align: justify;
-  /*z-index: -1;*/
   margin-left: 1%;
-  /*line-height: 10px;*/
   font-family: sans-serif;
   top: 25%;
 }
@@ -110,10 +105,7 @@ h1 {
   text-align: left;
 }
 
-
 .planet-section {
-  /*z-index: 99;
-  position: relative;*/
   overflow: visible;
 }
 
@@ -202,7 +194,6 @@ transition: 1s ease;
   line-height: 15px;
   font-family: 'Press Start 2P', cursive;
   font-size: 12px;
-
 }
 
 /*//////////////////////////////////////////*/
@@ -234,7 +225,6 @@ transition: 1s ease;
 #planet-div-6 {
   margin-left: 51%;
 }
-
 
 #planet-div-7 {
   margin-left: 42%;
@@ -308,8 +298,8 @@ a {
 .footer-left {
   float: left;
   position: absolute;
-
 }
+
 footer {
   text-align: center;
   background: gray;
@@ -322,8 +312,6 @@ footer {
 
 .footer-left a img {
   width: 40px;
-  /*margin-bottom: 5px;*/
-  /*padding-bottom: 3px;*/
 }
 
 /*/////////////////////////
@@ -336,8 +324,6 @@ footer {
     background-color: purple;
     color: white;
     font-family: 'Press Start 2P', cursive;
-/*     font-family: 'Audiowide', cursive; */
-
     padding: 10px 20px;
     font-size: 14px;
     border: 10px solid grey;
@@ -353,7 +339,6 @@ footer {
 
 .linkbtn:hover, .linkbtn:focus {
     background-color: #672065;
-
 }
 
 .link-content {

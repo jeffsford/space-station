@@ -5,7 +5,7 @@ function linkFunc() {
 
 window.onclick = function(event) {
   if (!event.target.matches('.linkbtn')) {
-    var links = document.getElementsByClassName("link-contents");
+    var links = document.getElementsByClassName("link-content");
     for (var i = 0; i < dropdowns.length; i++) {
       var linkDropDown = links[i];
       if (linkDropDown.classList.contains('show')) {
