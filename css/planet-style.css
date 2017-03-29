@@ -14,9 +14,6 @@ body {
   background-size: cover;
   color: white;
   opacity: 75%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 12px;
-
 }
 
 header {
@@ -89,18 +86,26 @@ h1 {
   color: white;
 }
 
-
 /*//////////////////////////////////////////*/
 /*///////////   div containing planet div //////////*/
 /*//////////////////////////////////////////*/
 
 .page-title {
-  width: 700px;
+  width: 600px;
   position: absolute;
   text-align: justify;
-  z-index: 0;
-  margin-left: 3%;
+  /*z-index: -1;*/
+  margin-left: 1%;
+  /*line-height: 10px;*/
+  font-family: sans-serif;
 }
+
+.page-title h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  text-align: left;
+}
+
 
 .planet-section {
   /*z-index: 99;
@@ -139,8 +144,18 @@ h1 {
   border-radius: 20%!important;
 }
 
+
+/*//////////////////////////////////////////*/
+/*///////////   astronaut spaceship image selector   //////////*/
+/*//////////////////////////////////////////*/
+
 #astronaut {
 transition: 1s ease;
+/*z-index: 0;*/
+/*position: absolute;*/
+/*top: 80%;
+left: 20px;*/
+
 }
 
 #astronaut:hover {
@@ -149,27 +164,24 @@ transition: 1s ease;
   transition: all .5s ease-in-out 0s;
 }
 
-.page-title {
-z-index: 0;
-line-height: 20px;
-}
-
 .spaceship-div {
   position: absolute;
   top: 110%;
-  right: -25px;
+  right: 40px;
+  z-index: 0;
 }
 
 .spaceship-div img{
-  width: 600px;
-
-       transition: 1s ease;
+  width: 400px;
+  transition: 1s ease;
 }
 
 .spaceship-div img:hover {
   cursor: default;
-  transform: rotate(360deg);
   transition: all .5s ease-in-out 0s;
+  -webkit-transform: scale(.1)!important;
+  -ms-transform: scale(.1)!important;
+  transform: rotate(360deg) scale(.1)!important;
 }
 
 /*//////////////////////////////////////////*/
@@ -189,7 +201,8 @@ line-height: 20px;
   width: 200px;
   opacity: 0.6;
   line-height: 15px;
-
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
 
 }
 
@@ -243,6 +256,7 @@ line-height: 20px;
 
 .planet-image {
   transition: 1s ease;
+  z-index: 99;
 }
 
 .planet-image:hover {
@@ -255,15 +269,6 @@ line-height: 20px;
 .planet-image:hover + div {
   display: block;
 }
-
-/*h1:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: all 1s ease;
-  text-decoration: none;
-
-}*/
 
 h1 {
 transition: 1s ease;
