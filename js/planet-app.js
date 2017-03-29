@@ -1,17 +1,19 @@
 'use strict';
 
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
-////////////////////////////////////////////////////////////////
-////////////////
-//////////////// fixed w/ CSS dont need JS for this part
-////////////////
-////////////////////////////////////////////////////////////////
-//
-// var popup1 = document.getElementById('planet-div-1');
-// popup1.onmouseover = function(){
-//   document.getElementById('popupText1').style.display = 'block';
-// };
-// popup1.onmouseout = function() {
-//   document.getElementById('popupText1').style.display = 'none';
-// };
-//
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
