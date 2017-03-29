@@ -146,40 +146,6 @@ h1 {
 
 
 /*//////////////////////////////////////////*/
-/*///////////   astronaut spaceship image selector   //////////*/
-/*//////////////////////////////////////////*/
-
-#astronaut {
-transition: 1s ease;
-}
-
-#astronaut:hover {
-  cursor: default;
-  transform: rotate(360deg);
-  transition: all .5s ease-in-out 0s;
-}
-
-.spaceship-div {
-  position: absolute;
-  top: 145%;
-  right: 40px;
-  z-index: 0;
-}
-
-.spaceship-div img{
-  width: 300px;
-  transition: 1s ease;
-}
-
-.spaceship-div img:hover {
-  cursor: default;
-  transition: all .5s ease-in-out 0s;
-  -webkit-transform: scale(.1)!important;
-  -ms-transform: scale(.1)!important;
-  transform: rotate(360deg) scale(.1)!important;
-}
-
-/*//////////////////////////////////////////*/
 /*///////////   popup balloon element   //////////*/
 /*//////////////////////////////////////////*/
 
@@ -269,26 +235,55 @@ padding: 10px;
 
 h1:hover {
 -webkit-filter: blur(5px);
-transition: 1s ease;
+transition: 5s ease;
 
 -webkit-transform: scale(1.2);
 -ms-transform: scale(1.2);
 transform: scale(1.2);
 }
 
-.nav-links:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: all 1s ease;
+/*//////////////////////////////////////////*/
+/*///////////   astronaut spaceship hover   //////////*/
+/*//////////////////////////////////////////*/
+
+#astronaut {
+transition: 10s ease;
 }
+
+#astronaut:hover {
+  cursor: default;
+  transform: rotate(7000deg);
+  transition: all 10s ease-in-out 0s;
+}
+
+.spaceship-div {
+  position: absolute;
+  top: 145%;
+  right: 40px;
+  z-index: 0;
+}
+
+.spaceship-div img{
+  width: 300px;
+  transition: 5s ease;
+}
+
+.spaceship-div img:hover {
+  cursor: default;
+  transition: all 5s ease-in-out 0s;
+  -webkit-transform: scale(.1)!important;
+  -ms-transform: scale(.1)!important;
+  transform: rotate(2000deg) scale(.1)!important;
+}
+
+
 /*//////////////////////////////////////////*/
 /*///////////     iframe elements  //////////*/
 /*//////////////////////////////////////////*/
 
 
 iframe {
-  border: 5px solid #672065;
+  border: 8px solid #672065;
   border-radius: 5px;
 }
 /*//////////////////////////////////////////*/
