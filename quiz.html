@@ -3,28 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Space Quiz</title>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <link rel="stylesheet" href="../css/quiz.css">
-=======
-=======
->>>>>>> d634cc5345edc4158325cad8f37cafdc9e5944e9
     <link rel="stylesheet" href="css/quiz.css">
-
     <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
-<<<<<<< HEAD
-    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
->>>>>>> 9b8a7fcf48ce87a9d2eac973216c24beae7d6deb
-=======
-
->>>>>>> d634cc5345edc4158325cad8f37cafdc9e5944e9
   </head>
   <body>
-    <section id= "header">
-      <h1>Quiz</h1>
-    </section> <!--closes header section-->
-    <section id="quiz">
+    <header>
+         <div id="nav-wrapper">
+         <div id="header">
+             <ul id="navbar">
+                <li class="nav-li"><a href="index.html" class="nav-links">Home</a></li>
+                <li class="nav-li"><a href="planets.html" class="nav-links">Solar System</a></li>
+                <li class="nav-li"><a href="quiz.html" class="nav-links">Quiz</a></li>
+              </ul>
+        </div>
+        </div>
+    </header>
+    <section>
         <form id="qForm" method="post">
+            <section id="quiz">
+                <section>
+                      <h1 id= "qheader">Space Quiz</h1>
+                </section>
             <p class="question">1. What is the closest planet to the Sun?</p>
 
             <ul class="answers">
@@ -55,10 +54,10 @@
             <p class="question">4. How many planets are in our solar system?</p>
 
             <ul class="answers">
-            <input type="radio" name="q4" value="a" id="q4a"><label for="q4a">seven</label><br/>
-            <input type="radio" name="q4" value="b" id="q4b"><label for="q4b">nine</label><br/>
-            <input type="radio" name="q4" value="c" id="q4c"><label for="q4c">eight</label><br/>
-            <input type="radio" name="q4" value="d" id="q4d"><label for="q4d">ten</label><br/>
+            <input type="radio" name="q4" value="a" id="q4a"><label for="q4a">Seven</label><br/>
+            <input type="radio" name="q4" value="b" id="q4b"><label for="q4b">Nine</label><br/>
+            <input type="radio" name="q4" value="c" id="q4c"><label for="q4c">Eight</label><br/>
+            <input type="radio" name="q4" value="d" id="q4d"><label for="q4d">Ten</label><br/>
             </ul>
 
             <p class="question">5. What is the smallest planet in our solar system?</p>
@@ -72,38 +71,19 @@
       <div >
         <input type="submit" name="Submit" value="Click Here for Results">
         <button type="reset">Try Again!</button>
-        <!-- <input type="button" onclick="clearTheQuizGuesses()" value="Click Here to Try Again"> -->
+        <div id="results"></div>
       </div>
       </form>
       </section>
       <br>
-      <div id="results"></div>
     </section> <!--closes quiz section-->
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <section id="comments">
-      <form id="comments-section" action="quiz.html">
-        <p>We value your feedback.  Please enter any comments or suggestions below.</p>
-        <p>Name:
-        <input type="text" name="name"/>
-        </p>
-        <textarea name="text-field" rows="4" cols="20"></textarea>
-        <input type="submit" name="submit-comment" value="Post Comment"/>
-      </form>
-      <p id="comments-p"></p>
-    </section> <!--closes comments section-->
-    <script type="text/javascript" src=../js/quiz.js></script>
-=======
-=======
-
->>>>>>> d634cc5345edc4158325cad8f37cafdc9e5944e9
     <section>
-      <form>
+      <form id="comments">
         <p>We value your feedback.  Please enter any comments or suggestions below.</p>
-        <label for="name">Name:</label>
+        <label for="name">Name:</label> <br>
         <input type="text" name="namefield"/> <br/>
-        <label for="textfield">Comment:</label> <br/>
-        <textarea name="textfield" rows="4" cols="20"></textarea>
+        <label for="textfield">Comment:</label> <br>
+        <textarea name="textfield" rows="4" cols="20"></textarea> <br>
         <input type="submit" id="submitbutton" name="submit-comment" value="Post Comment"/>
         </form>
     </section>
@@ -111,13 +91,7 @@
           <h4 id="username"></h4>
             <p id="usercomment"></p>
       </section> <!--closes comments section-->
-
     <script type="text/javascript" src="js/quiz.js"></script>
-<<<<<<< HEAD
->>>>>>> 9b8a7fcf48ce87a9d2eac973216c24beae7d6deb
-=======
     <script type="text/javascript" src="js/comments.js"></script>
-
->>>>>>> d634cc5345edc4158325cad8f37cafdc9e5944e9
   </body>
 </html>
