@@ -3,8 +3,6 @@
 /*///////////  universal  //////////*/
 /*//////////////////////////////////////////*/
 
-
-
 body {
   background: url("../assets/planet-wallpaper.jpg");
   background-attachment: fixed;
@@ -17,6 +15,11 @@ body {
 
 header {
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
 }
 
 .random-stuff > p {
@@ -37,7 +40,7 @@ header {
 #nav-wrapper {
   height: 61px;
   width: 505px;
-  background-color: #672065;
+  background-color: purple;
   margin-top: -16px;
   margin-left: -8px;
   border-bottom-right-radius: 25px;
@@ -45,7 +48,7 @@ header {
 #header {
   height: 50px;
   width: 500px;
-  background-color: #5f5f5f;
+  background-color: grey;
   opacity: 70%;
   margin-top: -16px;
   margin-left: -8px;
@@ -162,13 +165,13 @@ transition: 1s ease;
 
 .spaceship-div {
   position: absolute;
-  top: 110%;
+  top: 145%;
   right: 40px;
   z-index: 0;
 }
 
 .spaceship-div img{
-  width: 400px;
+  width: 300px;
   transition: 1s ease;
 }
 
@@ -210,7 +213,6 @@ transition: 1s ease;
 #planet-div-1 {
   margin-left: 83%;
 }
-
 
 #planet-div-2 {
   margin-left: 79%;
@@ -267,8 +269,8 @@ transition: 1s ease;
 }
 
 h1 {
-transition: 1s ease;
-padding: 20px;
+transition: 10s ease;
+padding: 10px;
 }
 
 h1:hover {
@@ -350,7 +352,7 @@ footer {
 /////////////////////////*/
 
 .linkbtn:hover, .linkbtn:focus {
-    background-color: #6600cc;
+    background-color: #672065;
 
 }
 
