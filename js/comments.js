@@ -1,19 +1,17 @@
 'use strict';
 
-var commentForm = document.getElementsByTagName('form')[0];
-var messageBoard = document.getElementById('messageboard');
+var commentForm = document.getElementsByTagName('form')[1];
 
 function addPost (event) {
   event.preventDefault();
-  var article = document.createElement('article');
-  var form = event.target;
-  var userName = commentForm.name.value;
-  var userComment = commentForm.textarea.value;
+  var userName = event.target.namefield.value;
+  var userComment = event.target.textfield.value;
+  var messageBoard = document.getElementById('messageboard');
   var nameTag = document.createElement('h4');
   nameTag.innerText = userName;
   var commentTag = document.createElement('p');
   commentTag.innerText = userComment;
-  commentForm.appendChild(messageBoard);
-  messageBoard.appendChild(article);
+  messageBoard.appendChild(nameTag);
+  messageBoard.appendChild(commentTag);
 };
 commentForm.addEventListener('submit', addPost);
