@@ -110,6 +110,12 @@ h1 {
 /*///////////   planet image selector   //////////*/
 /*//////////////////////////////////////////*/
 
+.star {
+  width: 40px;
+  opacity: 100%;
+  border-radius: 100%;
+  position: fixed;
+}
 
 .planet-image {
   border-radius: 90%;
@@ -255,16 +261,18 @@ transform: scale(1.5);
   transform: scale(1.1);
   transition: all 1s ease;
 }
-
-
 /*//////////////////////////////////////////*/
-/*///////////     Footer elements  //////////*/
+/*///////////     iframe elements  //////////*/
 /*//////////////////////////////////////////*/
+
 
 iframe {
   border: 5px solid purple;
   border-radius: 5px;
 }
+/*//////////////////////////////////////////*/
+/*///////////     Footer elements  //////////*/
+/*//////////////////////////////////////////*/
 
 a {
   text-decoration: none;
