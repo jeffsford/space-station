@@ -268,15 +268,16 @@ transition: 1s ease;
 
 h1 {
 transition: 1s ease;
+padding: 20px;
 }
 
 h1:hover {
 -webkit-filter: blur(5px);
 transition: 1s ease;
 
--webkit-transform: scale(1.5);
--ms-transform: scale(1.5);
-transform: scale(1.5);
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
 }
 
 .nav-links:hover {
