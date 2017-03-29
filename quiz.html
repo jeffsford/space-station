@@ -78,11 +78,25 @@
             <div id="results"></div>
         </section>
       </form>
-    </section>
+      </section>
+      <br>
+      <div id="results"></div>
+    </section> <!--closes quiz section-->
     <section>
-      <p id="comments">Please type your classrooom comments below.</p>
-      <textarea name="name" rows="8" cols="80"></textarea>
-    </section> <!--closes comments section-->
+      <form>
+        <p>We value your feedback.  Please enter any comments or suggestions below.</p>
+        <label for="name">Name:</label>
+        <input type="text" name="namefield"/> <br/>
+        <label for="textfield">Comment:</label> <br/>
+        <textarea name="textfield" rows="4" cols="20"></textarea>
+        <input type="submit" id="submitbutton" name="submit-comment" value="Post Comment"/>
+        </form>
+    </section>
+      <section id="messageboard">
+          <h4 id="username"></h4>
+            <p id="usercomment"></p>
+      </section> <!--closes comments section-->
+
     <script type="text/javascript" src="js/quiz.js"></script>
   </body>
 </html>
