@@ -10,14 +10,16 @@ function addPost (event) {
   var userComment = event.target.textfield.value;
   var messageBoard = document.getElementById('messageboard');
   var nameTag = document.createElement('h4');
+  nameTag.className = 'username-header';
   messageBoard.appendChild(nameTag);
-  nameTag.innerText = userName;
-  lsNames.push(userName);
+  nameTag.innerText = (userName + ' -');
+  lsNames.push(userName + ' -');
   localStorage.setItem('nameTag', JSON.stringify(lsNames));
   var commentTag = document.createElement('p');
+  commentTag.className = 'usercomment';
   messageBoard.appendChild(commentTag);
-  commentTag.innerText = userComment;
-  lsComments.push(userComment);
+  commentTag.innerText = ('"' + userComment + '"');
+  lsComments.push('"' + userComment + '"');
   localStorage.setItem('commentTag', JSON.stringify(lsComments));
   commentForm.reset();
 };
@@ -35,9 +37,11 @@ function createComment(){
   for (var i = 0; i < lsNames.length; i++){
     var commentNewH4 = document.createElement('h4');
     messageBoard.appendChild(commentNewH4);
+    commentNewH4.className = 'username-header';
     commentNewH4.innerText = lsNames[i];
     var commentNewP = document.createElement('p');
     messageBoard.appendChild(commentNewP);
+    commentNewP.className = 'usercomment';
     commentNewP.innerText = lsComments[i];
   }
 };
