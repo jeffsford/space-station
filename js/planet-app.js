@@ -1,17 +1,16 @@
 'use strict';
+function linkFunc() {
+  document.getElementById("pageLinks").classList.toggle("show");
+}
 
-
-////////////////////////////////////////////////////////////////
-////////////////
-//////////////// fixed w/ CSS dont need JS for this part
-////////////////
-////////////////////////////////////////////////////////////////
-//
-// var popup1 = document.getElementById('planet-div-1');
-// popup1.onmouseover = function(){
-//   document.getElementById('popupText1').style.display = 'block';
-// };
-// popup1.onmouseout = function() {
-//   document.getElementById('popupText1').style.display = 'none';
-// };
-//
+window.onclick = function(event) {
+  if (!event.target.matches('.linkbtn')) {
+    var links = document.getElementsByClassName("link-contents");
+    for (var i = 0; i < dropdowns.length; i++) {
+      var linkDropDown = links[i];
+      if (linkDropDown.classList.contains('show')) {
+        linkDropDown.classList.remove('show');
+      }
+    }
+  }
+}

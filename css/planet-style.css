@@ -4,7 +4,6 @@
 /*//////////////////////////////////////////*/
 
 body {
-  /*background: black;*/
   background: url("../assets/planet-wallpaper.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -12,13 +11,15 @@ body {
   background-size: cover;
   color: white;
   opacity: 75%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 12px;
-
 }
 
 header {
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
 }
 
 .random-stuff > p {
@@ -39,7 +40,7 @@ header {
 #nav-wrapper {
   height: 61px;
   width: 505px;
-  background-color: #672065;
+  background-color: purple;
   margin-top: -16px;
   margin-left: -8px;
   border-bottom-right-radius: 25px;
@@ -47,7 +48,7 @@ header {
 #header {
   height: 50px;
   width: 500px;
-  background-color: #5f5f5f;
+  background-color: grey;
   opacity: 70%;
   margin-top: -16px;
   margin-left: -8px;
@@ -82,23 +83,33 @@ header {
 
 h1 {
   font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   color: white;
+  overflow: hidden;
 }
-
 
 /*//////////////////////////////////////////*/
 /*///////////   div containing planet div //////////*/
 /*//////////////////////////////////////////*/
 
 .page-title {
-  width: 700px;
+  width: 600px;
   position: absolute;
   text-align: justify;
-  z-index: 0;
-  margin-left: 3%;
+  /*z-index: -1;*/
+  margin-left: 1%;
+  /*line-height: 10px;*/
+  font-family: sans-serif;
+  top: 25%;
 }
+
+.page-title h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  text-align: left;
+}
+
 
 .planet-section {
   /*z-index: 99;
@@ -137,6 +148,11 @@ h1 {
   border-radius: 20%!important;
 }
 
+
+/*//////////////////////////////////////////*/
+/*///////////   astronaut spaceship image selector   //////////*/
+/*//////////////////////////////////////////*/
+
 #astronaut {
 transition: 1s ease;
 }
@@ -147,8 +163,24 @@ transition: 1s ease;
   transition: all .5s ease-in-out 0s;
 }
 
-.page-title {
-z-index: 0;
+.spaceship-div {
+  position: absolute;
+  top: 145%;
+  right: 40px;
+  z-index: 0;
+}
+
+.spaceship-div img{
+  width: 300px;
+  transition: 1s ease;
+}
+
+.spaceship-div img:hover {
+  cursor: default;
+  transition: all .5s ease-in-out 0s;
+  -webkit-transform: scale(.1)!important;
+  -ms-transform: scale(.1)!important;
+  transform: rotate(360deg) scale(.1)!important;
 }
 
 /*//////////////////////////////////////////*/
@@ -167,7 +199,9 @@ z-index: 0;
   padding: 10px;
   width: 200px;
   opacity: 0.6;
-
+  line-height: 15px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
 
 }
 
@@ -179,7 +213,6 @@ z-index: 0;
 #planet-div-1 {
   margin-left: 83%;
 }
-
 
 #planet-div-2 {
   margin-left: 79%;
@@ -221,6 +254,7 @@ z-index: 0;
 
 .planet-image {
   transition: 1s ease;
+  z-index: 99;
 }
 
 .planet-image:hover {
@@ -234,26 +268,18 @@ z-index: 0;
   display: block;
 }
 
-/*h1:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: all 1s ease;
-  text-decoration: none;
-
-}*/
-
 h1 {
-transition: 1s ease;
+transition: 10s ease;
+padding: 10px;
 }
 
 h1:hover {
 -webkit-filter: blur(5px);
 transition: 1s ease;
 
--webkit-transform: scale(1.5);
--ms-transform: scale(1.5);
-transform: scale(1.5);
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
 }
 
 .nav-links:hover {
@@ -287,8 +313,11 @@ a {
 footer {
   text-align: center;
   background: gray;
-    border: 5px solid purple;
-    padding: 25px;
+  border: 5px solid purple;
+  padding: 25px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+
   }
 
 .footer-left a img {
@@ -296,3 +325,57 @@ footer {
   /*margin-bottom: 5px;*/
   /*padding-bottom: 3px;*/
 }
+
+/*/////////////////////////
+///////
+////// dropdown button
+//////
+/////////////////////////*/
+
+.linkbtn {
+    background-color: purple;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+/*     font-family: 'Audiowide', cursive; */
+
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 10px solid grey;
+    cursor: pointer;
+    border-radius: 5px
+}
+
+/*/////////////////////////
+///////
+////// dropdown hover
+//////
+/////////////////////////*/
+
+.linkbtn:hover, .linkbtn:focus {
+    background-color: #672065;
+
+}
+
+.link-content {
+    display: none;
+    position: absolute;
+    background-color:grey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.link-content a {
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Press Start 2P', cursive;
+    text-align: left;
+
+}
+
+.link-content a:hover {background-color: white; color: black}
+
+.show {display:block;}
