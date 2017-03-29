@@ -6,7 +6,6 @@
 
 
 body {
-  /*background: black;*/
   background: url("../assets/planet-wallpaper.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -81,9 +80,10 @@ header {
 
 h1 {
   font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   color: white;
+  overflow: hidden;
 }
 
 /*//////////////////////////////////////////*/
@@ -98,6 +98,7 @@ h1 {
   margin-left: 1%;
   /*line-height: 10px;*/
   font-family: sans-serif;
+  top: 25%;
 }
 
 .page-title h2 {
@@ -151,11 +152,6 @@ h1 {
 
 #astronaut {
 transition: 1s ease;
-/*z-index: 0;*/
-/*position: absolute;*/
-/*top: 80%;
-left: 20px;*/
-
 }
 
 #astronaut:hover {
@@ -314,8 +310,11 @@ a {
 footer {
   text-align: center;
   background: gray;
-    border: 5px solid purple;
-    padding: 25px;
+  border: 5px solid purple;
+  padding: 25px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+
   }
 
 .footer-left a img {
@@ -330,14 +329,14 @@ footer {
 //////
 /////////////////////////*/
 
-.dropbtn {
+.linkbtn {
     background-color: purple;
     color: white;
     font-family: 'Press Start 2P', cursive;
 /*     font-family: 'Audiowide', cursive; */
 
-    padding: 16px 50px;
-    font-size: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
     border: 10px solid grey;
     cursor: pointer;
     border-radius: 5px
@@ -349,18 +348,12 @@ footer {
 //////
 /////////////////////////*/
 
-.dropbtn:hover, .dropbtn:focus {
+.linkbtn:hover, .linkbtn:focus {
     background-color: #6600cc;
 
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-
-}
-
-.dropdown-content {
+.link-content {
     display: none;
     position: absolute;
     background-color:grey;
@@ -370,17 +363,16 @@ footer {
     border-radius: 5px;
 }
 
-.dropdown-content a {
+.link-content a {
     color: white;
-    padding: 35px 25px;
+    padding: 15px 25px;
     text-decoration: none;
     display: block;
     font-family: 'Press Start 2P', cursive;
-/*     font-family: 'Audiowide', cursive; */
+    text-align: left;
 
-    text-align: center;
 }
 
-.dropdown-content a:hover {background-color: white; color: black}
+.link-content a:hover {background-color: white; color: black}
 
 .show {display:block;}
