@@ -3,8 +3,20 @@ body {
   opacity: 75%;
 }
 
+h1{
+  text-align: center;
+  font-family: 'Handlee', cursive;
+  font-size: 70px;
+  margin: 20px;
+  color: #fff;
+}
+
 textarea {
     display: inline-block;
+}
+
+input[type="radio"] {
+  margin-right: 6px;
 }
 
 #qheader {
@@ -38,6 +50,61 @@ textarea {
   list-style-type: none;
   padding-top: 15px;
   margin-left: 25px;
+}
+
+.nav-li {
+  display: inline;
+  padding-right: 80px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Handlee', cursive;
+}
+
+.question {
+  color: #672065;
+  font-size: 30px;
+  font-family: 'Handlee', cursive;
+}
+
+.answers {
+  color: black;
+  font-size: 25px;
+  font-family: 'Handlee', cursive;
+}
+
+#submit-results {
+  box-shadow: 2px 2px 5px #888888;
+  height: 65px;
+  width: 100px;
+  font-size: 15px;
+  border-radius: 10px;
+  color: #672065;
+  font-weight: bold;
+}
+
+#submit-results:hover {
+background-color: rgba(0, 0, 0, 0.3);
+padding: 4px
+}
+
+#try-again {
+  box-shadow: 2px 2px 5px #888888;
+  height: 65px;
+  width: 75px;
+  font-size: 15px;
+  border-radius: 10px;
+  color: #672065;
+  font-weight: bold;
+}
+
+#try-again:hover {
+background-color: rgba(0, 0, 0, 0.3);
+padding: 4px
 }
 
 #form-and-comments {
@@ -122,4 +189,28 @@ textarea {
 
 .usercomment {
   font-style: italic;
+}
+
+#comments-intro {
+  color: #672065;
+  font-weight: bold;
+}
+
+#comments-button {
+  box-shadow: 2px 2px 5px #888888;
+  height: 65px;
+  width: 100px;
+  font-size: 15px;
+  border-radius: 10px;
+  color: #672065;
+  font-weight: bold;
+}
+
+#comments-button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 4px
+}
+
+.button-div {
+  display: inline-block;
 }
