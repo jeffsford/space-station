@@ -3,51 +3,53 @@
   <head>
     <meta charset="utf-8">
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
     <title>Welcome to Space Station</title>
   </head>
   <body>
     <header>
-      <ul id="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="planets.html">Solar System</a></li>
-        <li><a href="quiz.html">Quiz</a></li>
-      </ul>
-    </header>
-    <section id='mainImg'>
-      <div id="day-pic">
-        <img src="http://placehold.it/700x400"/>
+      <div id="nav-wrapper">
+        <div id="header">
+          <ul id="navbar">
+            <li class="nav-li"><a href="index.html" class="nav-links">Home</a></li>
+            <li class="nav-li"><a href="planets.html" class="nav-links">Solar System</a></li>
+            <li class="nav-li"><a href="quiz.html" class="nav-links">Quiz</a></li>
+          </ul>
+       </div>
       </div>
-    </section>
-      <section id="subscribe">
-      <form>
+      <section>
+        <h1>Space Station</h1>
+      </section>
+    </header>
+    <aside>
+      <form id="subscribe" action="signup.html">
         <fieldset>
-          <legend>Subscribe Here</legend>
-          <p>Sign up to<br/> receive fun<br/> space facts!</p>
-          <label>Enter e-mail here:<br/>
-          <input type="email" name="email"/><br/>
-          <input type="submit" value="Sumbit"/>
+            <p>Sign up to receive <br> fun facts!</p>
+            <label>Enter e-mail :<br/>
+            <input type="email" name="email" required="required"/><br/>
+            <button type="submit" value="Subscribe">Subscribe</button>
         </fieldset>
       </form>
-    </section>
-    <section id="image-section">
-      <div class="edu">
-        <a href="https://spaceplace.nasa.gov/">
-          <img src="assets/nasa_spaceplace.png"/></a>
+    </aside>
+    <section id="center">
+      <div id="day-pic">
+        <img id="bigImage" src="assets/Orion.jpg" width="700px" height="400px"/>
+        <span>Picture of the day: Orion Nebula</span>
+        <p id="dayPicInfo"> The Orion Nebula is also known as M42. Look into the night sky at the constellation of Orion. Now locate the middle “star” in the “sword” of Orion. You’ve found the pictured nebula!</p>
       </div>
-      <div class="edu">
-        <a href="http://www.spacex.com/">
-        <img src="assets/spacex3.jpg"/></a>
-        </div>
-        <div class="edu">
-          <a href="https://www.pacificsciencecenter.org/">
-          <img src="assets/pacific_science.png"/></a>
-        </div>
+      <section id="image-section">
           <div class="edu">
-            <a href="https://airandspace.si.edu/">
-            <img src="assets/smithsoniam air_space.png"/></a>
+            <a href="https://spaceplace.nasa.gov/" target="_blank">
+            <img id= "imageLink" src="assets/nasa_spaceplace.png"/></a>
+            <a href="http://www.spacex.com/" target="_blank">
+            <img id= "imageLink" src="assets/spacex3.jpg"/></a>
+            <a href="https://www.pacificsciencecenter.org/" target="_blank">
+            <img id= "imageLink" src="assets/pacific_science.png"/></a>
+            <a href="https://airandspace.si.edu/" target="_blank">
+            <img id= "imageLink" src="assets/smithsoniam air_space.png"/></a>
           </div>
-
+      </section>
     </section>
-  <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
