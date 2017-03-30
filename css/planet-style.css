@@ -98,9 +98,9 @@ h1 {
   width: 600px;
   position: absolute;
   text-align: justify;
-  margin-left: 1%;
+  margin-left: 10px;
   font-family: sans-serif;
-  top: 25%;
+  top: 160px;
 }
 
 .page-title h2 {
@@ -116,13 +116,6 @@ h1 {
 /*//////////////////////////////////////////*/
 /*///////////   planet image selector   //////////*/
 /*//////////////////////////////////////////*/
-
-.star {
-  width: 40px;
-  opacity: 100%;
-  border-radius: 100%;
-  position: fixed;
-}
 
 .planet-image {
   border-radius: 90%;
@@ -247,13 +240,14 @@ transform: scale(1.2);
 /*//////////////////////////////////////////*/
 
 #astronaut {
-transition: 10s ease;
+transition: 5s ease;
+width: 250px;
 }
 
 #astronaut:hover {
   cursor: default;
-  transform: rotate(7000deg);
-  transition: all 10s ease-in-out 0s;
+  transform: rotate(720deg);
+  transition: all 5s ease-in-out 0s;
 }
 
 .spaceship-div {
@@ -276,11 +270,9 @@ transition: 10s ease;
   transform: rotate(2000deg) scale(.1)!important;
 }
 
-
 /*//////////////////////////////////////////*/
 /*///////////     iframe elements  //////////*/
 /*//////////////////////////////////////////*/
-
 
 iframe {
   border: 8px solid #672065;
