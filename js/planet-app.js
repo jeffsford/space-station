@@ -1,6 +1,6 @@
 'use strict';
 function linkFunc() {
-  document.getElementById("pageLinks").classList.toggle("show");
+  document.getElementById('pageLinks').classList.toggle('show');
 }
 
 window.onclick = function(event) {
@@ -13,4 +13,4 @@ window.onclick = function(event) {
       }
     }
   }
-}
+};
