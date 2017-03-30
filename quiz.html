@@ -7,22 +7,33 @@
     <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
   </head>
   <body>
+    <main>
     <header>
-         <div id="nav-wrapper">
-         <div id="header">
-             <ul id="navbar">
-                <li class="nav-li"><a href="index.html" class="nav-links">Home</a></li>
-                <li class="nav-li"><a href="planets.html" class="nav-links">Solar System</a></li>
-                <li class="nav-li"><a href="quiz.html" class="nav-links">Quiz</a></li>
-              </ul>
-        </div>
-        </div>
+
+
+      <div id="nav-wrapper">
+      <div id="header">
+        <nav id="navbar">
+          <a href="index.html" class="nav-links"> Home </a>
+          <a href="planets.html" class="nav-links"> Solar System </a>
+          <a href="quiz.html" class="nav-links"> Quiz </a>
+          <a href="about.html" class="nav-links"> About Us </a>
+
+        </nav>
+      </div>
+    </div>
+
+
+
+        <section>
+          <h1>Space Station</h1>
+        </section>
     </header>
     <section>
         <form id="qForm" method="post">
             <section id="quiz">
                 <section>
-                      <h1 id= "qheader">Space Quiz</h1>
+                      <h2 id= "qheader">Quiz</h2>
                 </section>
             <p class="question">1. What is the closest planet to the Sun?</p>
 
@@ -68,29 +79,38 @@
             <input type="radio" name="q5" value="c" id="q5c"><label for="q5c">Mars</label><br/>
             <input type="radio" name="q5" value="d" id="q5d"><label for="q5d">Earth</label><br/>
             </ul>
-      <div >
-        <input type="submit" name="Submit" value="Click Here for Results">
-        <button type="reset">Try Again!</button>
-        <div id="results"></div>
+      <div>
+        <div class="button-div">
+          <button id="submit-results" class="quiz-buttons" type="submit" name="Submit" value="Click Here for Results">Click Here for Results</button>
+        </div>
+        <div class="button-div">
+          <button id="try-again" class="quiz-buttons" type="reset">Try Again!</button>
+        </div>
+          <div id="results"></div>
       </div>
       </form>
       </section>
       <br>
-    </section> <!--closes quiz section-->
+    </section>
     <div id="form-and-comments"
     <section>
       <form id="comments">
-        <p>We value your feedback.  Please enter any comments or suggestions below.</p>
+        <p id="comments-intro">We value your feedback.  Please enter any comments or suggestions below.</p>
         <label id="user-name" for="name">Name:</label> <br>
         <input type="text" name="namefield"/> <br/>
         <label id="comment" for="textfield">Comment:</label> <br>
         <textarea name="textfield" rows="4" cols="20"></textarea> <br>
-        <input type="submit" id="submitbutton" name="submit-comment" value="Post Comment"/>
+        <button type="submit" id="comments-button" name="submit-comment" value="Post Comment">Post Comment</button>
       </form>
     </section>
       <section id="messageboard">
-      </section> <!--closes comments section-->
+      </section>
+
+</main>
+      
+
+
     <script type="text/javascript" src="js/quiz.js"></script>
     <script type="text/javascript" src="js/comments.js"></script>
-  </body>
+</body>
 </html>
