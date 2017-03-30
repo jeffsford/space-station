@@ -3,6 +3,14 @@ body {
   opacity: 75%;
 }
 
+h1 {
+  text-align: center;
+  font-family: 'Handlee', cursive;
+  font-size: 70px;
+  margin: 20px;
+  color: #fff;
+}  
+
 #nav-wrapper {
   height: 61px;
   width: 505px;
