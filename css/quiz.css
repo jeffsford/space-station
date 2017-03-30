@@ -25,7 +25,6 @@ input[type="radio"] {
   color: #672065
 }
 
-
 #nav-wrapper {
   height: 61px;
   width: 505px;
@@ -157,6 +156,31 @@ padding: 4px
 #comment {
   color: #672065;
   font-weight: bold;
+}
+
+.nav-li {
+  display: inline;
+  padding-right: 80px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Handlee', cursive;
+}
+
+.question {
+  color: black;
+  font-size: 30px;
+  font-family: 'Handlee', cursive;
+}
+
+.answers {
+  color: black;
+  font-size: 25px;
+  font-family: 'Handlee', cursive;
 }
 
 .username-header {
