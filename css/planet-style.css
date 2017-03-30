@@ -60,25 +60,25 @@ a {
   color: #fff;
   text-decoration: none;
   list-style-type: none;
-  padding-top: 15px;
-  margin-left: 25px;
-}
+  /*padding-top: 15px;*/
+  /*margin-left: 25px;*/
+  text-align: center;
 
-.nav-li {
-  display: inline;
-  padding-right: 80px;
-  font-size: 9px;
-  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 500px;
+
 }
 
 .nav-links {
   text-decoration: none;
   color: inherit;
-  /*font-family: 'Press Start 2P', cursive;*/
     font-family: 'Handlee', cursive;
     font-size: 18px;
-
-  /*font-size: 8px!important;*/
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 30px;
 
 }
 
