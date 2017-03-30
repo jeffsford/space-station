@@ -1,0 +1,188 @@
+/*//////////////////////////////////////////*/
+/*///////////  universal  //////////*/
+/*//////////////////////////////////////////*/
+
+body {
+  background: url("../assets/planet-wallpaper.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*color: white;*/
+  opacity: 75%;
+
+}
+
+/*//////////////////////////////////////////*/
+/*///////////  nav  //////////*/
+/*//////////////////////////////////////////*/
+
+
+#nav-wrapper {
+  height: 61px;
+  width: 505px;
+  background-color: #672065;
+  margin-top: -16px;
+  margin-left: -8px;
+  border-bottom-right-radius: 25px;
+}
+#header {
+  height: 50px;
+  width: 500px;
+  background-color: #5f5f5f;
+  opacity: 70%;
+  margin-top: -16px;
+  margin-left: -8px;
+  border-bottom-right-radius: 25px;
+}
+
+#navbar {
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 15px;
+  margin-left: 25px;
+}
+
+.nav-li {
+  display: inline;
+  padding-right: 80px;
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: inherit;
+  /*font-family: 'Press Start 2P', cursive;*/
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+
+  /*font-size: 8px!important;*/
+
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+
+}
+
+/*//////////////////////////////////////////*/
+/*///////////  header  //////////*/
+/*//////////////////////////////////////////*/
+
+header   {
+  margin: 30px 20px;
+  /*border: 2px dashed red;*/
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+/*//////////////////////////////////////////*/
+/*///////////  div for each about me  //////////*/
+/*//////////////////////////////////////////*/
+#section-div {
+  margin: 30px 20px;
+    /*border: 2px solid purple;*/
+      margin: auto;
+  text-align: center;
+  columns: 4;
+}
+
+#section-div {
+  /*background-color: grey;*/
+}
+
+.main-div-deco {
+/*   float: left; */
+  margin: auto;
+  /*display: inline-block;*/
+  text-align: center;
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  border: 5px solid #672065;
+
+  background: grey;
+  /*opacity: .7;*/
+}
+
+.main-div-deco:before {
+
+}
+
+.main-div-deco > img {
+  clear: right;
+  margin: 30px 20px;
+  /*border: 5px solid black;*/
+  margin: 20px; 50px;
+  border-radius: 5px;
+  border: 5px solid #672065;
+}
+
+.each-div {
+
+  margin: 30px 20px;
+  /*border: solid;*/
+  height: 150px;
+  overflow: hidden;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+
+}
+
+#div-1 {
+  margin: 30px 20px;
+    /*border: 2px dashed green;*/
+
+}
+#div-2 {
+  margin: 30px 20px;
+      /*border: 2px dashed blue;*/
+
+}
+#div-3 {
+  margin: 30px 20px;
+      /*border: 2px dashed green;*/
+
+}
+#div-4 {
+  margin: 30px 20px;
+      /*border: 2px dashed blue;*/
+  clear: right;
+}
+
+/*//////////////////////////////////////////*/
+/*///////////  footer  //////////*/
+/*//////////////////////////////////////////*/
+
+a {
+  text-decoration: none;
+}
+
+.footer-left {
+  float: left;
+  position: absolute;
+}
+
+footer {
+  text-align: center;
+  background: gray;
+  margin: 30px 20px;
+  /*border: 5px solid #672065;*/
+  padding: 25px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  opacity: .9;
+  }
+
+.footer-left a img {
+  width: 40px;
+}
