@@ -1,13 +1,18 @@
+body {
+  background: url(../assets/space-background.jpg);
+  opacity: 75%;
+}
+
+textarea {
+    display: inline-block;
+}
+
 #qheader {
   font-size: 40px;
   padding-left: 20px;
   color: #672065
 }
 
-body {
-  background: url(../assets/space-background.jpg);
-  opacity: 75%;
-}
 
 #nav-wrapper {
   height: 61px;
@@ -61,19 +66,25 @@ body {
   font-family: 'Handlee', cursive;
 }
 
-#comments {
-  color: white;
-  font-size: 40px;
+#form-and-comments {
+  font-size: 25px;
   font-family: 'Handlee', cursive;
+  background-color: #fff;
+  opacity: 0.7;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 50px 20px 50px;
+  border-radius: 25px;
 }
 
 #quiz {
-  padding-left: 100px;
+  padding-left: 80px;
   background-color: #fff;
   opacity: 0.7;
   width: 50%;
   height: auto;
-  margin-top: 80px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px 50px 20px 50px;
@@ -85,11 +96,31 @@ body {
   padding-left: 75px;
   font-size: 40px;
   font-family: 'Handlee', cursive;
+  margin: 15px;
 }
 
 #results {
+  padding-top: 20px;
   padding-left: 100px;
   color: black;
   font-size: 20px;
   font-family: 'Handlee', cursive;
+}
+
+#user-name {
+  color: #672065;
+  font-weight: bold;
+}
+
+#comment {
+  color: #672065;
+  font-weight: bold;
+}
+
+.username-header {
+  color: #672065;
+}
+
+.usercomment {
+  font-style: italic;
 }

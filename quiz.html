@@ -5,25 +5,25 @@
     <title>Space Quiz</title>
     <link rel="stylesheet" href="css/quiz.css">
     <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
   </head>
   <body>
     <header>
-      <div id="nav-wrapper">
-      <div id="header">
-        <ul id="navbar">
-          <li class="nav-li"><a href="index.html" class="nav-links">Home</a></li>
-          <li class="nav-li"><a href="planets.html" class="nav-links">Solar System</a></li>
-          <li class="nav-li"><a href="quiz.html" class="nav-links">Quiz</a></li>
-        </ul>
-      </div>
-    </div>
-    </header><!--closes header section-->
-    <section id="quiz">
-      <section>
-        <h1 id= "qheader">Space Quiz</h1>
-      </section>
+         <div id="nav-wrapper">
+         <div id="header">
+             <ul id="navbar">
+                <li class="nav-li"><a href="index.html" class="nav-links">Home</a></li>
+                <li class="nav-li"><a href="planets.html" class="nav-links">Solar System</a></li>
+                <li class="nav-li"><a href="quiz.html" class="nav-links">Quiz</a></li>
+              </ul>
+        </div>
+        </div>
+    </header>
+    <section>
         <form id="qForm" method="post">
+            <section id="quiz">
+                <section>
+                      <h1 id= "qheader">Space Quiz</h1>
+                </section>
             <p class="question">1. What is the closest planet to the Sun?</p>
 
             <ul class="answers">
@@ -71,18 +71,26 @@
       <div >
         <input type="submit" name="Submit" value="Click Here for Results">
         <button type="reset">Try Again!</button>
-        <!-- <input type="button" onclick="clearTheQuizGuesses()" value="Click Here to Try Again"> -->
+        <div id="results"></div>
       </div>
-        <section>
-          <br>
-            <div id="results"></div>
-        </section>
+      </form>
+      </section>
+      <br>
+    </section> <!--closes quiz section-->
+    <div id="form-and-comments"
+    <section>
+      <form id="comments">
+        <p>We value your feedback.  Please enter any comments or suggestions below.</p>
+        <label id="user-name" for="name">Name:</label> <br>
+        <input type="text" name="namefield"/> <br/>
+        <label id="comment" for="textfield">Comment:</label> <br>
+        <textarea name="textfield" rows="4" cols="20"></textarea> <br>
+        <input type="submit" id="submitbutton" name="submit-comment" value="Post Comment"/>
       </form>
     </section>
-    <section>
-      <p id="comments">Please type your classrooom comments below.</p>
-      <textarea name="name" rows="8" cols="80"></textarea>
-    </section> <!--closes comments section-->
+      <section id="messageboard">
+      </section> <!--closes comments section-->
     <script type="text/javascript" src="js/quiz.js"></script>
+    <script type="text/javascript" src="js/comments.js"></script>
   </body>
 </html>
