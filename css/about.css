@@ -20,7 +20,6 @@ p {
 /*///////////  nav  //////////*/
 /*//////////////////////////////////////////*/
 
-
 #nav-wrapper {
   height: 61px;
   width: 505px;
@@ -43,23 +42,24 @@ p {
   color: #fff;
   text-decoration: none;
   list-style-type: none;
-  padding-top: 15px;
-  margin-left: 25px;
-}
+  text-align: center;
 
-.nav-li {
-  display: inline;
-  padding-right: 80px;
-  font-size: 9px;
-  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 500px;
 }
 
 .nav-links {
   text-decoration: none;
   color: inherit;
-  font-family: 'Handlee', cursive;
-  font-size: 18px;
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 30px;
 }
+
 
 
 /*//////////////////////////////////////////*/
