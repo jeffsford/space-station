@@ -65,7 +65,7 @@ h1 {
   background-color: #fff;
   opacity: 0.7;
   width: 50%;
-  height: 325px;
+  height: auto;
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
@@ -117,6 +117,12 @@ footer {
   font-family: helvetica;
   font-size: 12px;
   opacity: .9;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
   }
 
 .footer-left a img {
