@@ -11,6 +11,7 @@ body {
   background-size: cover;
   color: white;
   opacity: 75%;
+
 }
 
 header {
@@ -228,7 +229,7 @@ h1 {
   display: block;
 }
 
-h1 {
+h1  {
 transition: 10s ease;
 padding: 10px;
 }
@@ -315,7 +316,7 @@ footer {
 
 /*/////////////////////////
 ///////
-////// dropdown button
+////// Link button
 //////
 /////////////////////////*/
 
@@ -332,7 +333,7 @@ footer {
 
 /*/////////////////////////
 ///////
-////// dropdown hover
+////// Link hover
 //////
 /////////////////////////*/
 
