@@ -5,13 +5,37 @@
     <title>Space Quiz</title>
     <link rel="stylesheet" href="css/quiz.css">
     <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="css/planet-style.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
   </head>
   <body>
     <main>
     <header>
 
 
-      <div id="nav-wrapper">
+            <div class="dropdown">
+              <button onclick="linkFunc()" class="linkbtn">MENU</button>
+              <div id="pageLinks" class="link-content">
+                <a href="index.html">
+                  Home</a>
+                <a href="planets.html">
+                  Explore</a>
+                <a href="quiz.html">
+                  Quiz &diams;</a>
+                <a href="about.html">
+                  About Us</a>
+                <a href="http://solarsystem.nasa.gov/kids/index.cfm" target="_blank">
+                  Play a Game!</a>
+
+
+              </div>
+            </div>
+
+
+
+      <!-- <div id="nav-wrapper">
       <div id="header">
         <nav id="navbar">
           <a href="index.html" class="nav-links"> Home </a>
@@ -21,19 +45,19 @@
 
         </nav>
       </div>
-    </div>
+    </div> -->
 
 
 
         <section>
-          <h1>Space Station</h1>
+          <h1>Space Quiz</h1>
         </section>
     </header>
     <section>
         <form id="qForm" method="post">
             <section id="quiz">
                 <section>
-                      <h2 id= "qheader">Quiz</h2>
+
                 </section>
             <p class="question">1. What is the closest planet to the Sun?</p>
 
@@ -84,7 +108,7 @@
           <button id="submit-results" class="quiz-buttons" type="submit" name="Submit" value="Click Here for Results">Click Here for Results</button>
         </div>
         <div class="button-div">
-          <button id="try-again" class="quiz-buttons" type="reset">Try Again!</button>
+          <button id="try-again" class="quiz-buttons" type="reset">Try <br/>Again!</button>
         </div>
           <div id="results"></div>
       </div>
@@ -99,7 +123,7 @@
         <label id="user-name" for="name">Name:</label> <br>
         <input type="text" name="namefield"/> <br/>
         <label id="comment" for="textfield">Comment:</label> <br>
-        <textarea name="textfield" rows="4" cols="20"></textarea> <br>
+        <textarea name="textfield" rows="20" cols="115"></textarea> <br>
         <button type="submit" id="comments-button" name="submit-comment" value="Post Comment">Post Comment</button>
       </form>
     </section>
@@ -130,5 +154,7 @@
 
     <script type="text/javascript" src="js/quiz.js"></script>
     <script type="text/javascript" src="js/comments.js"></script>
+    <script src="js/planet-app.js" type="text/javascript" ></script>
+
 </body>
 </html>

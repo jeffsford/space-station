@@ -5,13 +5,19 @@ body {
 
 h1 {
   text-align: center;
-  font-family: 'Handlee', cursive;
-  font-size: 70px;
-  margin: 20px;
-  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 50px;
+  margin-top: 70px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px!important;
+
 }
 /*/////*/
-
+/*
 #nav-wrapper {
   height: 61px;
   width: 505px;
@@ -50,7 +56,7 @@ h1 {
     font-weight: bold;
     display: inline-block;
     padding-right: 30px;
-}
+}*/
 /*////////////*/
 
 #welcome-wrapper {
@@ -82,11 +88,16 @@ h1 {
 
 #welcome-one {
 font-size: 22px;
+  color: black;
+  font-family: helvetica;
+  text-align: center;
+
 }
 
 #welcome-two {
   text-align: center;
   font-weight: bold;
+  font-family: helvetica;
   color: #672065;
 }
 
@@ -103,15 +114,15 @@ a {
   text-decoration: none;
 }
 
-.footer-left {
+.footer-l {
   float: left;
   position: absolute;
 }
 
-footer {
+.about-footer {
   text-align: center;
   background: gray;
-  margin: 30px 20px;
+  margin: 500px 20px 0 20px;
   border: 5px solid #672065;
   padding: 25px;
   font-family: helvetica;
@@ -120,11 +131,11 @@ footer {
 
   position: absolute;
   right: 0;
-  bottom: 0;
+  /*bottom: 200px;*/
   left: 0;
   padding: 1rem;
   }
 
-.footer-left a img {
+.footer-l a img {
   width: 40px;
 }

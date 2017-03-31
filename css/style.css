@@ -4,21 +4,29 @@ body{
   color: white;
   }
 
-button {
+/*button {
   box-shadow: 2px 2px 5px #888888;
-}
+}*/
 
-button:hover {
+/*button:hover {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 4px
-}
+}*/
 
 h1 {
   text-align: center;
 font-family: 'Press Start 2P', cursive;
   font-size: 50px;
-  margin: 20px;
+  margin-top: 70px;
 }
+
+h2 {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  margin-bottom: 70px;
+}
+
 
 fieldset {
   border-radius: 15px;
@@ -27,19 +35,20 @@ fieldset {
   color: black;
 }
 
-span {
+.pid {
   color: white;
-  font-family: 'Handlee', cursive;
-  font-size: 30px;
+  font-family: helvetica;
+ font-size: 30px;
   letter-spacing: -1px;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.7);
+  /*background: rgb(0, 0, 0);*/
+  background: rgba(0, 0, 0, 0.4);
   padding: 10px;
   position: absolute;
-  top: 8px;
-  left: 8px;
+  top: 87px;
+  left: 15px;
   width: 50%%;
-  border-radius: 15px;
+  border-radius: 5px;
+  /*opacity: .7*/
 }
 
 #center {
@@ -53,7 +62,7 @@ span {
 
 #day-pic {
   position: relative;
-  width: 700PX;
+  width: 1000PX;
   display: inline-block;
   display: block;
   text-align: center;
@@ -64,27 +73,49 @@ span {
   overflow: hidden;
   float: right;
   margin: 20px;
-  font-family: 'Handlee', cursive;
+  font-family: helvetica;
   font-size: 20px;
   background-color: #fff;
   opacity: 0.7;
   border-radius: 10px;
   position: absolute;
   right: 0;
+  top: 220px;
 }
 
 
 #bigImage {
-  border-radius: 10px;
-  border: 7px solid rgba(103, 32, 101, 0.44);
+  margin-top: 59px;
+  border-radius: 5px;
+  border: 8px solid #672065;
+  width: 97%;
+  transition: 1s ease;
 }
 
-#dayPicInfo {
+#bigImage:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.75s ease;
+}
+
+iframe {
+  border: 8px solid #672065;
+  width: 967px;
+  height: 500px;
+  border-radius: 5px;
+}
+.dayPicInfo {
   margin: auto;
-  width: 100%;
-  font-family: 'Handlee', cursive;
+  color: white;
+  width: 96%;
+  font-family: helvetica;
   padding: 10px;
   font-size: 20px;
+  text-align: justify;
+  /*background: grey opacity: .7;*/
+  border-radius: 5px;
+
 }
 
 #imageLink{
@@ -92,6 +123,19 @@ span {
   margin: 15px;
   border-radius: 15px;
 }
+
+.edu img{
+  transition: 1s ease;
+  /*z-index: 99;*/
+}
+
+.edu img:hover {
+  -webkit-transform: scale(.7);
+  -ms-transform: scale(.7);
+  transform: scale(.7);
+  transition: all 0.75s ease;
+}
+/*
 
 .edu :hover {
   -webkit-transform: scale(1.3);
@@ -103,13 +147,13 @@ span {
 .edu {
   margin: 15px
   border-radius: 15px;
-}
+}*/
 
 
 /*//////////////////////////////////////////*/
 /*///////////  nav  //////////*/
 /*//////////////////////////////////////////*/
-
+/*
 #nav-wrapper {
   height: 61px;
   width: 505px;
@@ -148,7 +192,67 @@ span {
     font-weight: bold;
     display: inline-block;
     padding-right: 30px;
+}*/
+
+/*/////////////////////////
+///////
+////// Link button
+//////
+/////////////////////////*/
+
+.linkbtn {
+    background-color: #672065;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 10px solid #5f5f5f;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
+
+/*/////////////////////////
+///////
+////// Link hover
+//////
+/////////////////////////*/
+
+.linkbtn:hover, .linkbtn:focus {
+    background-color: #672065;
+}
+
+.link-content {
+    display: none;
+    position: absolute;
+    background-color:#5f5f5f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.link-content a {
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Press Start 2P', cursive;
+    text-align: left;
+
+}
+
+.link-content a:hover {background-color: white; color: black}
+
+.show {display:block;}
+
+/*/////////////////////////
+///////
+//////FOOTER
+//////
+/////////////////////////*/
 
 
 
@@ -167,7 +271,7 @@ footer {
   margin: 30px 20px;
   border: 5px solid #672065;
   padding: 25px;
-  font-family: helvetica;
+font-family: 'Press Start 2P', cursive;
   font-size: 12px;
   opacity: .9;
   }

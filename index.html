@@ -3,27 +3,34 @@
   <head>
     <meta charset="utf-8">
       <link rel="stylesheet" href="css/planet-style.css">
-    <link type="text/css" rel="stylesheet" href="css/style.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/style.css"/>
+      <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
     <title>Welcome to Space Station</title>
   </head>
   <body>
     <header>
+
+
       <div class="dropdown">
-        <button onclick="linkFunc()" class="linkbtn">Learn More </button>
+        <button onclick="linkFunc()" class="linkbtn">MENU</button>
         <div id="pageLinks" class="link-content">
+          <a href="index.html">
+            Home &diams;</a>
+          <a href="planets.html">
+            Explore</a>
+          <a href="quiz.html">
+            Quiz</a>
+          <a href="about.html">
+            About Us</a>
           <a href="http://solarsystem.nasa.gov/kids/index.cfm" target="_blank">
             Play a Game!</a>
-          <a href="http://www.ducksters.com/science/star.php" target="_blank">
-            The Stars</a>
-          <a href="https://youtu.be/B-b4XvuQo1Y" target="_blank">
-            The Moon</a>
-          <a href="http://www.ducksters.com/science/galaxies.php" target="_blank">
-            Other Galaxies</a>
+
 
         </div>
       </div>
+
+
 
 <!--
               <div id="nav-wrapper">
@@ -54,15 +61,30 @@
         </fieldset>
       </form>
     </aside>
+
+
     <section id="center">
+
+
       <div id="day-pic">
         <a href="planets.html">
-        <img id="bigImage" src="assets/Orion.jpg" width="700px" height="400px"/>
+        <img id="bigImage" src="assets/orion.jpg" alt="Click On Me" />
         </a>
-        <span>Picture of the day: Orion Nebula</span>
-        <p id="dayPicInfo"> The Orion Nebula is also known as M42. Look into the night sky at the constellation of Orion. Now locate the middle “star” in the “sword” of Orion. You’ve found the pictured nebula!</p>
+        <span class="pid">Picture of the day: Orion Nebula</span>
+        <p class="dayPicInfo"> The Orion Nebula is also known as M42. Look into the night sky at the constellation of Orion. Now locate the middle “star” in the “sword” of Orion. You’ve found the pictured nebula!</p>
       </div>
+
+
+      <div class="random-stuff">
+          <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+          <p><iframe src="https://www.youtube.com/embed/Qd6nLM2QlWw" frameborder="0" allowfullscreen></iframe></p>
+
+        </div>
+
+
       <section id="image-section">
+        <h2>EXTERNAL LINKS</h2>
           <div class="edu">
             <a href="https://spaceplace.nasa.gov/" target="_blank">
             <img id= "imageLink" src="assets/nasa_spaceplace.png"/></a>
@@ -106,7 +128,6 @@
 
 
     <script type="text/javascript" src="js/app.js"></script>
-    <script src="js/planet-app.js" type="text/javascript" >
-    </script>
+    <script src="js/planet-app.js" type="text/javascript" ></script>
   </body>
 </html>

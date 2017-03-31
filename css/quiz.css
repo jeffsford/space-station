@@ -21,6 +21,11 @@ input[type="radio"] {
   margin-right: 6px;
 }
 
+input {
+  width:300px;
+  height: 40px;
+}
+
 #qheader {
   font-size: 40px;
   padding-left: 20px;
@@ -85,13 +90,16 @@ input[type="radio"] {
 .answers {
   color: black;
   font-size: 25px;
-  font-family: 'Handlee', cursive;
+  font-family: helvetica;
 }
 
+ul {
+  columns: 2;
+}
 #submit-results {
   box-shadow: 2px 2px 5px #888888;
-  height: 65px;
-  width: 100px;
+  height: 80px;
+  width: 150px;
   font-size: 15px;
   border-radius: 10px;
   color: #672065;
@@ -105,8 +113,8 @@ padding: 4px
 
 #try-again {
   box-shadow: 2px 2px 5px #888888;
-  height: 65px;
-  width: 75px;
+  height: 80px;
+  width: 150px;
   font-size: 15px;
   border-radius: 10px;
   color: #672065;
@@ -188,11 +196,11 @@ padding: 4px
   font-family: 'Handlee', cursive;
 }
 
-.answers {
+/*.answers {
   color: black;
   font-size: 25px;
   font-family: 'Handlee', cursive;
-}
+}*/
 
 .username-header {
   color: #672065;
@@ -209,8 +217,8 @@ padding: 4px
 
 #comments-button {
   box-shadow: 2px 2px 5px #888888;
-  height: 65px;
-  width: 100px;
+  height: 80px;
+  width: 150px;
   font-size: 15px;
   border-radius: 10px;
   color: #672065;
@@ -224,6 +232,7 @@ padding: 4px
 
 .button-div {
   display: inline-block;
+
 }
 
 
