@@ -22,10 +22,10 @@ input[type="radio"] {
   margin-right: 6px;
 }
 
-input {
-  width: 20px;
-  height: 12px
-}
+/*input .comment-stuff{
+  width: 300px;
+  height: 40px;
+}*/
 
 #qheader {
   font-size: 40px;
@@ -47,6 +47,7 @@ input {
   color: #672065;
   font-size: 20px;
   font-family: 'Press Start 2P', cursive;
+  line-height: 40px;
 
 }
 
@@ -60,6 +61,7 @@ input {
 ul {
   columns: 2;
   /*text-align: left!important;*/
+  line-height: 40px;
 
 }
 #submit-results {
